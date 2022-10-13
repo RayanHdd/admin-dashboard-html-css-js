@@ -1,3 +1,4 @@
+/* import the google font (poppins) */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
 
 /* ----------------------- ROOT VARIABLES ----------------- */
@@ -36,6 +37,7 @@
   --box-shadow: 0 2rem 3rem var(--color-light);
 }
 
+/* some preset styles */
 * {
   margin: 0;
   padding: 0;
@@ -47,6 +49,7 @@
   box-sizing: border-box;
 }
 
+/* set the default font size to 14px */
 html {
   font-size: 14px;
 }
@@ -54,7 +57,7 @@ html {
 body {
   width: 100vw;
   height: 100vh;
-  font-family: poppins, sans-serif;
+  font-family: "poppins", sans-serif;
   font-size: 0.88rem;
   background: var(--color-background);
   user-select: none;

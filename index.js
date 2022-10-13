@@ -2,6 +2,7 @@ const sideMenu = document.querySelector("aside");
 const menuBtn = document.querySelector("#menu-btn");
 const closeBtn = document.querySelector("#close-btn");
 const themeToggler = document.querySelector(".theme-toggler");
+const sidebarItems = document.querySelectorAll(".sidebar a:nth-child(n)");
 
 // show sidebar
 menuBtn.addEventListener("click", () => {
@@ -11,6 +12,16 @@ menuBtn.addEventListener("click", () => {
 // close sidebar
 closeBtn.addEventListener("click", () => {
   sideMenu.style.display = "none";
+});
+
+// change the active sidebar item
+sidebarItems.forEach((item) => {
+  item.addEventListener("click", () => {
+    sidebarItems.forEach((element) => {
+      element.classList.remove("active"); //first, remove active class from all of the items
+    });
+    item.classList.add("active"); //then, add the active class to the item that clicked
+  });
 });
 
 // change theme
