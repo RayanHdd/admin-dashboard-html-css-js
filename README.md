@@ -1,8 +1,8 @@
 # admin-dashboard-html-css-js
 A fully responsive admin dashboard website with dark theme toggle using html, css and javascript
 
-####################################################################################################################
-####################################################################################################################
+###############################################################################################################################################
+
 
 ![big_light](https://user-images.githubusercontent.com/68460959/197261388-8a9a6001-f1ca-4fce-847c-b16f1f071aea.jpeg)
 ![big_dark](https://user-images.githubusercontent.com/68460959/197261870-d8139c6c-172e-4fba-b457-0eb7722e0dd0.jpeg)
